@@ -1,0 +1,80 @@
+.flp-animate-right{position:relative;-webkit-animation:animateright 0.4s;animation:animateright 0.4s}
+@-webkit-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+#infusion_settings .flp-settings-page{
+    display: inline-block;
+    width:100%;
+    background: #ffffff;
+    height: auto;
+    margin: 0;
+    border: none;
+}
+
+#infusion_settings .flp-nav{
+    height: 760px;
+}
+
+#_flp_required_field_settings .flp-cell-label{
+    width: auto;
+}
+
+.flp-settings-page{
+    display: inline-block;
+    width:800px;
+    background: #ffffff;
+    margin-top: 20px;
+    height: auto;
+    border: 1px solid #e5e5e5
+}
+
+.flp-nav{
+    display:inline-block;
+    float: left;
+    z-index:1;
+    width:220px;
+    color: white;
+    background-color: #318FC2;
+    box-shadow: 5px 4px 8px 0px #888888;
+    height:810px;
+}
+
+.flp-tab{
+    display:block;
+    padding:10px 20px 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+.flp-tab:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #1e5876;
+    transition: 0.4s;
+}
+
+.flp-active{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #1e5876;
+    transition: 0.4s;
+}
+
+.flp-section{
+    display:block;
+    padding:20px 0 0 20px;
+}
+.flp-row{padding: 5px}
+.flp-cell{display: inline-block}
+.flp-cell-input{max-width: 300px}
+.flp-cell-label{width:200px;float: left}
+
+.flp-sections-container{
+    display: inline-block;
+    float: left;
+}
+.flp-logo{
+    background: #ffffff;
+    text-align: center;
+}

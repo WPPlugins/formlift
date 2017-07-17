@@ -1,0 +1,114 @@
+#infusion_meta .CodeMirror{
+    height:400px;
+    border: 1px solid #d3d3d3;
+}
+#infusion_meta .inside,
+#infusion_settings .inside {
+    margin: 0;
+    padding: 0;
+}
+
+.flp-text-area{
+    width:200px;
+}
+
+.flp-input{
+    vertical-align: middle;
+    -moz-box-shadow:    inset 0 1px 1px #dddddd;
+    -webkit-box-shadow: inset 0 1px 1px #dddddd;
+    box-shadow: inset 0 1px 1px #dddddd;
+    padding: 4px;
+    border: 1px solid #dddddd;
+    border-radius: 1px;
+}
+
+.flp-button{
+    vertical-align: middle;
+    padding: 6px;
+    border-radius: 3px;
+    border-width: 0;
+    transition: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.flp-delete-button{
+    color: white;
+    background: #ff6637;
+}
+
+.flp-delete-button:hover{
+    background: #ff0000;
+    transition: 0.4s;
+}
+
+.flp-create-redirect-button{
+    color: white;
+    background: #6cc36c;
+}
+
+.flp-create-redirect-button:hover{
+    background: #008855;
+    transition: 0.4s;
+}
+
+.flp-copy-shortcode-button{
+    color: white;
+    background: deepskyblue;
+}
+
+.flp-copy-shortcode-button:hover{
+    background: dodgerblue;
+    transition: 0.4s;
+}
+
+.flp-max-width{
+    max-width: 300px !important;
+}
+
+.flp-redirect-row{
+    display: block;
+    margin-bottom:5px;
+    border-radius: 5px;
+    padding:4px;
+    background: #F1F1F1;
+    cursor: move;
+}
+
+.text-cell{
+    display: inline-block;
+}
+
+.flp-redirect-cell{
+    display: inline-block;
+    padding: 5px;
+}
+
+.flp-error{
+    font-size: 14px;
+    color: red;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+.flp-notice-icon-container{
+    padding-top: 10px;
+    width: 40px;
+    display: inline-block;
+}
+
+.flp-notice-text-container{
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+}
+
+.flp-notice-footer {
+    padding: 10px;
+    float: right;
+    display: inline-block;
+}
+
+.flp-notice{
+    display: inline-block;
+}
